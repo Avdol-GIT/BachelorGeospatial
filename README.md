@@ -1,4 +1,5 @@
 Das ist der Source-Code des Prototyps der Bachelor-Thesis "Analyse der Google Geospatial API: Möglicher Anwendungsfall am Beispiel einer Augmented-Reality-Kunstausstellungs-App".
+Der Code ist über die IDE "Android Studio" erstellt worden und kann über diese wieder geöffnet werden.
 
 Für eine direkte Ausführung der App ist eine APK unter apk/debug/app-debug.apk zu finden.
 
