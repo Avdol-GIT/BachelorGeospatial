@@ -5,3 +5,4 @@ Für eine direkte Ausführung der App ist eine APK unter apk/Protoyp.apk zu find
 
 Der Prototyp umfasst die Funktionen des "öffentlichen Modus" und die erste Implementierung des "Upload_Modus". 
 Um diese Funktionen zu nutzen, benötigt die App die Zugangsberechtigung zur Kamera und zur genauen Position des Gerätes per GPS-Signal.
+Der "öffentliche Modus" stellt zurzeit 42 3D-Modelle, welche über den Campus der Hochschule Mannheim verteilt sind.
