@@ -1,0 +1,26 @@
+Index: app/src/main/java/com/example/arcorenotj/geospatial/HelloGeoRenderer.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/arcorenotj/geospatial/HelloGeoRenderer.kt b/app/src/main/java/com/example/arcorenotj/geospatial/HelloGeoRenderer.kt
+--- a/app/src/main/java/com/example/arcorenotj/geospatial/HelloGeoRenderer.kt	
++++ b/app/src/main/java/com/example/arcorenotj/geospatial/HelloGeoRenderer.kt	(date 1722702794875)
+@@ -488,7 +488,7 @@
+         backgroundRenderer.drawVirtualScene(render, virtualSceneFramebuffer, Z_NEAR, Z_FAR)
+ 
+     }
+-    /*
++
+     fun onMapClick(latLng: LatLng) {
+         // TODO: place an anchor at the given position.
+         val earth = session?.earth ?: return
+@@ -499,7 +499,7 @@
+ 
+     }
+ 
+-     */
++
+ 
+     /*Funktion aus dem Code des Projektes codelab_geospatial unter renderCompassAtAnchor()
+     * Stellt ein 3D-Modell an der Position eines Geländeankers dar

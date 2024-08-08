@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Gebe an, welche Hardware-Bestandteile genutzt werden -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <!-- Angabe der benötigten Zugangsberechtigungen. -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- Für die Angabe der genauen Position, muss auch die grobe Position des Gerätes verlangt werden -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-feature android:name="android.hardware.camera.ar" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.geospatialPrototyp"
+        tools:targetApi="31">
+
+
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.geospatialPrototyp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CameraViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".geospatial.HelloGeoActivity"
+            android:exported="true" />
+
+        <!-- Tag gibt an, dass die Anforderung ARCore erfordert. -->
+        <meta-data android:name="com.google.ar.core" android:value="required" />
+        <!-- API-SChlüssel zur Verbindung des Google Cloud Projektes und der App -->
+        <!-- Man nutzt den selben Schlüssel für android.ar.API_KEY und android.geo.API_KEY -->
+        <meta-data
+            android:name="com.google.android.ar.API_KEY"
+            android:value="AIzaSyDw_TEM8vq8pMw0avP-IMQU3OQreZXCy7Y"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDw_TEM8vq8pMw0avP-IMQU3OQreZXCy7Y" />
+    </application>
+
+
+
+</manifest>

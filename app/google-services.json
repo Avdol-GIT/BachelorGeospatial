@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321200047731",
+    "project_id": "geospatialproto",
+    "storage_bucket": "geospatialproto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321200047731:android:2acf1f33ec1c80b5d24c06",
+        "android_client_info": {
+          "package_name": "com.example.geospatialPrototyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgpMV29fvtE7UDts98QjlA-UTgB2X2cv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
